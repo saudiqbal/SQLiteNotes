@@ -4,9 +4,9 @@ header("Content-Encoding: gzip");
 session_start();
 
 // main page
-$mainpage = "http://www.saudiqbal.com/notes/main.php";
+$mainpage = "notes/main.php";
 // redirect link when not logged in.
-$redirectlocation = "http://www.saudiqbal.com/notes/index.php";
+$redirectlocation = "notes/index.php";
 // referer check
 $yoursite = "saudiqbal.com"; //Your site url without http://
 $yoursite2 = "www.saudiqbal.com"; //Type your domain with www. this time
