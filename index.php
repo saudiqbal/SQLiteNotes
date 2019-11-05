@@ -10,7 +10,7 @@ exit();
 // If the form was submited check if the username and password match
 if($_POST['submit']){
 
-	if($_POST['username'] == 'admin' && $_POST['password'] == 'iqbals07'){
+	if($_POST['username'] == 'admin' && $_POST['password'] == 'admin'){
 // ------------------------ Start Both -----------------------------------------------------
 		// If username and password is right , store the session in a cookie
 		// setcookie ('logedin', 'saudiqbal',time()+30000); // Set the length of the cookie to 30000
