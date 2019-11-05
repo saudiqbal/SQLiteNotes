@@ -4,9 +4,9 @@ header("Content-Encoding: gzip");
 session_start();
 
 // main page
-$mainpage = "notes/main.php";
+$mainpage = "main.php";
 // redirect link when not logged in.
-$redirectlocation = "notes/index.php";
+$redirectlocation = "index.php";
 // referer check
 $yoursite = "example.com"; //Your site url without http://
 $yoursite2 = "www.example.com"; //Type your domain with www. this time
